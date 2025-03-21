@@ -1,5 +1,5 @@
 import { useState, useEffect, ReactNode } from "react";
-import { fetchPatients } from "../../services/fetchPatients";
+import { fetchPatients } from "../../services/patientsService";
 import { PatientContext } from "./PatientContext";
 import { Patient } from "../PatientContext/PatientContext";
 

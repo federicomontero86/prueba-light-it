@@ -52,11 +52,10 @@ function App() {
       }
 
       setIsModalOpen(false);
-    } catch (error) {
+    } catch {
       toast.error(
         "Ocurrió un error al guardar el paciente. Inténtalo nuevamente."
       );
-      console.error(error);
     }
   };
 
