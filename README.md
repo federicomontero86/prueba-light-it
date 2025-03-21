@@ -21,14 +21,20 @@
      npm install
      ```
 
-4. Corre la aplicación en modo de desarrollo:
+4. Crea una copia del archivo .env.example, nombralo como .env y completa la variable VITE_API_URL con la URL de la API.
+
+   ```bash
+   VITE_API_URL=[URL de la API]
+   ```
+
+5. Corre la aplicación en modo de desarrollo:
 
    - Con **npm**:
      ```bash
      npm run dev
      ```
 
-5. Abre la URL disponibilizada por Vite en tu terminal para ver la aplicación en ejecución.
+6. Abre la URL disponibilizada por Vite en tu terminal para ver la aplicación en ejecución.
 
 ## Documentación de diseño y herramientas utilizadas
 
